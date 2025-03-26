@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore")
 
 
 host_creditos = st.secrets["host_creditos"]
-port_creditos = st.secrets["port_creditos"]
+port_creditos = int(st.secrets["port_creditos"])  # Convertir a entero
 user_creditos = st.secrets["user_creditos"]
 password_creditos = st.secrets["password_creditos"]
 database_creditos = st.secrets["database_creditos"]
